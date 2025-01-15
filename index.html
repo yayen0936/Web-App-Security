@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Creds DB</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>Hello, World!</p>
-    <p>Sample</p>
+    <header class="main-header">
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Creds DB</h2>
+            <p>The best leak database on the internet!</p>
+        </div>
+    </section>
+
+    <section id="tools" class="content-section">
+        <div class="container">
+            <h2>Popular Tools</h2>
+            <ul class="tool-list">
+                <li>Wireshark</li>
+                <li>Metasploit Framework</li>
+                <li>Nmap</li>
+                <li>Burp Suite</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Creds DB. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
